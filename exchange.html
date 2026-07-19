@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="exchange.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <div class="select-container">
+                        <select name="from" id="">
+                        </select>
+                    </div>
+                </div>
+                <img class="exchange-img" src="https://cdn-icons-png.flaticon.com/512/25/25677.png" alt="">
+                <div class="to">
+                    <p>To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <div class="select-container">
+                        <select name="to" id="">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="result">1 USD=80INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="exchange.js"></script>
+</body>
